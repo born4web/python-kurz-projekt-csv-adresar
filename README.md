@@ -43,7 +43,7 @@
 - `detail_kontaktu`
 	- funkce přijme jako parametr data kontaktu
 	- zobrazí je na obrazovku jako tabulku dat
-	```Python
+	```
 	-------------------------------------------
 	| Jméno:     | Franta                     |
 	| Příjmení:  | Vopršálek                  |
