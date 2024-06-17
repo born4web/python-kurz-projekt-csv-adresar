@@ -111,7 +111,7 @@ def najit_kontakt(database, **kwargs):
 
     :return: [] - neni [item1, item2,...] - pokud nalezne shody
     """
-    result = [contact for contact in database if porovnej_shodu_vsech_parametru(contact, **kwargs)]
+    result = [(index, contact) for index, contact in enumerate(database) if porovnej_shodu_vsech_parametru(contact, **kwargs)]
 
     # Vysledek
     return result
