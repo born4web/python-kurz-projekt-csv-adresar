@@ -28,6 +28,7 @@
 - `vytvorit_kontakt`
 	- předejte data ve vhodném formátu (ideálně `**kwargs`, nebo i `list`, `tuple`, `dictionary`)
 	- pro jednoduchost všechny parametry kontaktu jsou povinné pro zadání nového kontaktum kromě pole `rozliseni`
+    - variantně požadujte minimálně alespoň `jmeno` nebo `prijmeni` a `email` nebo `telefon`, aby byl kontakt "kompletní"
 	- hlídejte duplicitu kontaktu podle jedinečné kombinace polí `jmeno`, `prijmeni` a `rozliseni`
 	- duplicitní kontakt je takový který má stejné všechny tři tyto parametry
 	- duplicita není povolena, takže se duplicitní kontakt nezapíše do "databáze"
